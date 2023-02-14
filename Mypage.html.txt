@@ -1,0 +1,79 @@
+<html>
+
+<head>
+  <style>
+    table,
+    th,
+    tr {
+      border: 1px solid black;
+      border-collapse: collapse;
+    }
+  </style>
+</head>
+
+<body>
+  <table align="center" style="outline: thin solid;">
+    <thead>
+      <th colspan="4" style="background-color: #e6e6e6;">
+        A Complex Table
+      </th>
+    </thead>
+    <tr>
+      <td colspan="2" style="background-color: #f2f2f2;"><strong>Invoice #123456789</strong></td>
+      <td colspan="2" style="background-color: #f2f2f2;">14 January</td>
+    </tr>
+    <tr>
+      <td colspan="2"><b>Pay to</b><br>
+        <address>Acme Billing Co.
+          123 Main st.
+          City vile</address>
+      </td>
+      <td colspan=" 2"><strong>Customer</strong></b><br>
+        <address>John Smith
+          321 Willow Way
+          SouthEast NorthWestshire ,MA 54321</address>
+      </td>
+    </tr>
+    <tr>
+      <td style="background-color: #f2f2f2;"><strong>Name Description</strong></td>
+      <td style="background-color: #f2f2f2;"><strong>Qty</strong></td>
+      <td style="background-color: #f2f2f2;"><strong>@</strong></td>
+      <td style="background-color: #f2f2f2;"><strong>Cost</strong></td>
+    </tr>
+    <tr>
+      <td>PaperClips</td>
+      <td>1000</td>
+      <td>0.01</td>
+      <td>10.00</td>
+    </tr>
+    <tr>
+      <td>Staples(box)</td>
+      <td>1000</td>
+      <td>0.01</td>
+      <td>10.00</td>
+    </tr>
+    <tr>
+      <td style="background-color: #f2f2f2;"><strong>Subtotal</strong></td>
+      <td style="background-color: #f2f2f2;"></td>
+      <td style="background-color: #f2f2f2;"></td>
+      <td>110.00</td>
+      </td>
+    </tr>
+    <tr>
+      <td style="background-color: #f2f2f2;"><strong>Tax</strong></td>
+      <td style="background-color: #f2f2f2;"></td>
+      <td>8%</td>
+      <td>8.80</td>
+      </td>
+    </tr>
+    <tr>
+      <td style="background-color: #f2f2f2;"><strong>GrandTotal</strong></td>
+      <td style="background-color: #f2f2f2;"></td>
+      <td style="background-color: #f2f2f2;"></td>
+      <td>$118.80</td>
+      </td>
+    </tr>
+  </table>
+</body>
+
+</html>
