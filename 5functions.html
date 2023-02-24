@@ -1,0 +1,24 @@
+<html>
+    <body>
+        <title>Calling function without loops</title>
+        <script>
+            var Hello1 = () =>{
+                alert("In function 1 = Hello1");
+            }
+            var Hello2 = () =>{
+                alert("In function 2 = Hello2");
+            }
+            var Hello3 = () =>{
+                alert("In function 3 = Hello3");
+            }
+            var Hello4 = () =>{
+                alert("In function 4 = Hello4");
+            }
+            var Hello5 = () =>{
+                alert("In function 5 = Hello5");
+            }
+            let funcname = prompt("Enter function name to call");
+            window[funcname]();
+        </script>
+    </body>
+</html>
